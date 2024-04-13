@@ -1,19 +1,5 @@
 from collections import defaultdict
 
-
-def cargar_gramatica(nombre_archivo):
-    gramatica = defaultdict(list)
-    with open(nombre_archivo, 'r') as archivo:
-        for linea in archivo:
-            partes = linea.strip().split('->')
-            if len(partes) < 2:
-                continue
-            nt = partes[0].strip()
-            producciones = partes[1].strip().split('|')
-            for produccion in producciones:
-                gramatica[nt].append(produccion.strip().split())
-    return gramatica
-
 def calculate_first(grammar, symbol):
     first_set = set()
 
