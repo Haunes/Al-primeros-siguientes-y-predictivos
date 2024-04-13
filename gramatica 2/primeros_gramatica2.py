@@ -4,7 +4,7 @@ def calculate_first(grammar, symbol):
     first_set = set()
 
     # Case 1: α is ε
-    if symbol == []:
+    if symbol == []: 
         first_set.add("ε")
         return first_set
 

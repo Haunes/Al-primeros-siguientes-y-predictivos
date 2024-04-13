@@ -4,7 +4,7 @@ from siguientes_gramatica2 import calculate_follow_for_grammar
 def calculate_prediction_sets(grammar, follow_sets):
     prediction_sets = {}
     
-    for non_terminal in grammar:
+    for non_terminal in grammar: 
         for production in grammar[non_terminal]:
             prediction_set = set()
             first_of_alpha = calculate_first(grammar, production)

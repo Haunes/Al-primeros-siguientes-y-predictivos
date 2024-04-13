@@ -6,7 +6,7 @@ def calculate_follow_for_grammar(grammar):
     # Initialize FOLLOW sets for all non-terminals
     for non_terminal in grammar:
         follow[non_terminal] = set()
-
+ 
     # Add $ to FOLLOW(S), where S is the start symbol of the grammar
     start_symbol = next(iter(grammar))  # Get the first key in the grammar dictionary
     follow[start_symbol].add('$')
