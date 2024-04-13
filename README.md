@@ -5,3 +5,8 @@ En el siguiente repositorio se encuentran 2 carpetas con diferentes gramaticas, 
 COMO EJECUTAR
 
 para ejecutarlo, descargue todos los archivos adjuntos, y desde la consola dirijase a la ubicacion de los archivos y escriba python (mas el nombre del archivo)
+
+INTEGRANTES
+
+Juan Serrano
+Juan Barrera
